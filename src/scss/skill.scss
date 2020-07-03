@@ -1,0 +1,91 @@
+.skills {
+    width: 100%;
+    margin-top: -80px;
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+
+    .box-container {
+        width: 70%;
+
+        .box {
+            box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
+                0 0 0 1px #E6ECF8;
+            display: flex;
+            flex-direction: row;
+            background: #fff;
+            // display: flex;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            overflow: hidden;
+
+            .column {
+                text-align: center !important;
+                padding: 70px 45px;
+                border: 1px solid #E6ECF8;
+                width: 50%;
+
+                img {
+                    width: 50px;
+                }
+
+                .title {
+                    color: #141c3a;
+                    margin: 1.2rem 2rem;
+                }
+
+                .subtitle {
+                    font-weight: 200;
+                    line-height: 30px;
+                    font-size: 18px;
+                    margin: 2rem 2rem;
+                }
+
+                .item {
+                    margin: 3rem 3rem;
+                    margin-bottom: 2.5rem;
+
+                    h2 {
+                        color: #7510F7 !important;
+                        font-size: 18px !important;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        line-height: 30px;
+                        margin-bottom: 0.7rem;
+                    }
+
+                    p {
+                        font-weight: 200;
+                        line-height: 30px;
+                        font-size: 18px;
+
+                        ul {
+                            padding: 0;
+                            list-style: none;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .skills {
+        .box-container {
+            width: 80%;
+
+            .box {
+                flex-direction: column;
+
+                .column {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.root {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  border-left: 1px solid #E6ECF8;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #141c3a;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+#root #root::-webkit-scrollbar {
+  width: 6px;
+  border-left: 1px solid #E6ECF8;
+
+}
+
+#root::-webkit-scrollbar-thumb {
+  background-color: #141c3a;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +77,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

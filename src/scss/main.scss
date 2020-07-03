@@ -1,0 +1,23 @@
+.main-content {
+    width: 100%;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        width: 6px;
+        border-left: 1px solid #E6ECF8;
+
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #141c3a;
+    }
+
+    // overflow-y: scroll;
+    &::-webkit-scrollbar-button {
+        display: none;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
