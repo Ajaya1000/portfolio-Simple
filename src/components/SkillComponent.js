@@ -14,11 +14,11 @@ export default class Skill extends Component {
                         <h1 className='title'> Competitive Programming </h1>
                         <p className='subtitle'>I love to challenge myself to code any difficult problem. </p>
                         <div className='item'>
-                            <h2>Language I Speak</h2>
+                            <h2>Language I Speak:</h2>
                             <p>CPP,Python,Java</p>
                         </div>
                         < div className = 'item'>
-                            <h2>Things I know</h2>
+                            <h2>Things I know:</h2>
                             <p> 
                                 <ul>
                                     <li>STL</li>
@@ -33,10 +33,10 @@ export default class Skill extends Component {
                          < h1 className = 'title' >Front-end Developer </h1> 
                          < p className = 'subtitle' > I like to code things from scratch, and enjoy bringing ideas to life in the browser. </p> 
                              <div className = 'item' >
-                                    <h2 >Language I used</h2>
+                                    <h2 >Language I used:</h2>
                                     <p >HTML, Javascript, CSS, Sass, Less </p>
                              </div> <div className = 'item' >
-                                    <h2 >Tools And Frameworks </h2> 
+                                    <h2 >Tools And Frameworks:</h2> 
                                     <p >
                                         <ul>
                                             < li >React JS </li>

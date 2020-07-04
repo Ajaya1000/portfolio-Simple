@@ -74,7 +74,7 @@
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:800px) {
     .skills {
         .box-container {
             width: 80%;
@@ -85,6 +85,32 @@
                 .column {
                     width: 100%;
                 }
+            }
+        }
+    }
+}
+
+@media (max-width:350px) {
+    .column {
+        img {
+            width: 35px;
+        }
+
+        .title {
+            font-size: 1.3rem !important;
+        }
+
+        .subtitle {
+            font-size: 0.7rem !important;
+        }
+
+        .item {
+            h2 {
+                font-size: 0.7rem !important;
+            }
+
+            p {
+                font-size: 0.7rem !important;
             }
         }
     }

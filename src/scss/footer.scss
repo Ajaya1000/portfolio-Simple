@@ -1,0 +1,41 @@
+.contact {
+    color: #fff;
+    width: 100vw;
+    // height: 20vw;
+    // height: 50vh;
+    padding: 5rem;
+    background: #7510F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        margin-bottom: 5rem;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        a {
+            font-size: 1.3rem !important;
+            margin-left: 2rem;
+            text-decoration: none;
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transition: 0.7s;
+
+            &:hover {
+                color: #7510F7;
+                background: #fff;
+            }
+        }
+    }
+}

@@ -4,6 +4,8 @@ import Home from './HomeComponent'
 import About from './AboutComponent'
 import '../scss/main.scss'
 import Skill from './SkillComponent'
+import Work from './WorkComponent'
+import Footer from './FooterComponent'
 export default class Main extends Component {
   render() {
     return (
@@ -13,6 +15,8 @@ export default class Main extends Component {
           < Home / >
            <About / >
             <Skill/>
+            <Work />
+            <Footer />
         </div>
       </>
     )
