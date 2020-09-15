@@ -4,6 +4,7 @@ import homeDecore from "../assests/works/homedecore.png";
 import recoms from "../assests/works/recoms.png";
 import todo from "../assests/works/todo.png";
 import weather from "../assests/works/waether.png";
+import covid from "../assests/works/covid.png";
 export default class Work extends Component {
   render() {
     return (
@@ -11,6 +12,17 @@ export default class Work extends Component {
         <section className="work" id="works">
           <h1>My Recent Work</h1>
           <div className="project-menu">
+            <div className="project">
+              <img src={covid} alt="homeDecore" />
+              <div className="caption">
+                <p>
+                  Covid-19 Tracker<br />(part of flipr Hackathon)
+                </p>
+                <a className="cv" target="_blank" rel='noopener noreferrer' href="http://3.132.84.112:3000/#/home">
+                  Visit Website
+                </a>
+              </div>
+            </div>
             <div className="project">
               <img src={homeDecore} alt="homeDecore" />
               <div className="caption">

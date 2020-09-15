@@ -12,7 +12,8 @@
             box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5),
                 0 0 0 1px #E6ECF8;
             display: flex;
-            flex-direction: row;
+            // flex-direction: row;
+
             background: #fff;
             // display: flex;
             border-top-left-radius: 20px;
@@ -74,7 +75,7 @@
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:1300px) {
     .skills {
         .box-container {
             width: 80%;
