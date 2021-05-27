@@ -24,12 +24,11 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Install Packages
+      - name: Install package
         run: yarn
-
       - name: Deploying the static website to gh-pages
         run: |
-          git config --global user.email "your_github_email>"
-          git config --global user.name "your_github_username>"
-          git remote set-url origin https://your_personal_access_token>@github.com/your_github_username>/your_repo>.git
+          git config --global user.email ${{secrets.EMAIL_ID}}
+          git config --global user.name ${{secrets.USERNAME}}
+          git remote set-url origin https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/${{secrets.USERNAME}}/portfolio-Simple.git
           yarn run deploy
