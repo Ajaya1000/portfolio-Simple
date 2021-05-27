@@ -14,11 +14,11 @@ const Project = ({ img, alt, desc, isWorkOnProgress, link }) => (
       </p>
       <a
         className={isWorkOnProgress ? 'wop' : 'cv'}
-        target='_blank'
+        target={isWorkOnProgress ? '_self' : '_blank'}
         rel='noopener noreferrer'
         href={link}
       >
-        {isWorkOnProgress ? 'Work On Progressp' : ' Visit Website'}
+        {isWorkOnProgress ? 'Work On Progress' : ' Visit Website'}
       </a>
     </div>
   </div>
