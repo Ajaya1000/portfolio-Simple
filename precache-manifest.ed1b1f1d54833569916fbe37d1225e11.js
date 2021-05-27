@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a8036731da6ceae7eb1d9cbcf288951",
+    "revision": "7f306d1f08e87a46471e055affe6440c",
     "url": "/portfolio-Simple/index.html"
   },
   {
-    "revision": "c10c9549c1d695f6101f",
-    "url": "/portfolio-Simple/static/css/main.afe6f87e.chunk.css"
+    "revision": "8dc67cbfae9cd0400755",
+    "url": "/portfolio-Simple/static/css/main.f4648afb.chunk.css"
   },
   {
-    "revision": "de2ce2efbdfdd271fad2",
-    "url": "/portfolio-Simple/static/js/2.7a5e2f46.chunk.js"
+    "revision": "36b4722ba4e48abcbf03",
+    "url": "/portfolio-Simple/static/js/2.dd6bf7c8.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio-Simple/static/js/2.7a5e2f46.chunk.js.LICENSE.txt"
+    "revision": "570d362d673dab785e62d2b8563e1118",
+    "url": "/portfolio-Simple/static/js/2.dd6bf7c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c10c9549c1d695f6101f",
-    "url": "/portfolio-Simple/static/js/main.a5f2d4da.chunk.js"
+    "revision": "8dc67cbfae9cd0400755",
+    "url": "/portfolio-Simple/static/js/main.85d0f97f.chunk.js"
   },
   {
     "revision": "de9fc2fb39ed7bb56909",
     "url": "/portfolio-Simple/static/js/runtime-main.40e296e7.js"
   },
   {
-    "revision": "57eb3ef7d3cc4fbb25df6677744addba",
-    "url": "/portfolio-Simple/static/media/avatar.57eb3ef7.svg"
+    "revision": "5fd889765a2dda24f3b431af213c72f5",
+    "url": "/portfolio-Simple/static/media/avatar.5fd88976.svg"
   },
   {
     "revision": "4e2db052b7237f142f8eb4b636a9e5df",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-Simple/static/media/develop.cd05cff7.svg"
   },
   {
-    "revision": "94b4f432928c123a629f1706b3d56ca7",
-    "url": "/portfolio-Simple/static/media/frontend.94b4f432.svg"
+    "revision": "00c47a20dbedaf75161a24f4b3cb3c3f",
+    "url": "/portfolio-Simple/static/media/frontend.00c47a20.svg"
   },
   {
-    "revision": "149ce28fb0ccb275ce0f391d557e9523",
-    "url": "/portfolio-Simple/static/media/hero.149ce28f.svg"
+    "revision": "ae74261d1c1175a278a0d6ce4034ca4e",
+    "url": "/portfolio-Simple/static/media/hero.ae74261d.svg"
   },
   {
     "revision": "afdbe1c6ea3d5e4aaada8ed297b629a2",
