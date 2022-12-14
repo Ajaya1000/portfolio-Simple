@@ -6,20 +6,20 @@ import '../scss/skill.scss';
 
 const Skill = () => (
   <>
-    <section className='skills'>
-      <div className='box-container'>
-        <div className='box'>
-          <div className='column'>
-            <img src={cpplogo} alt='logo' />
-            <h1 className='title'> Competitive Programming </h1>
-            <p className='subtitle'>
+    <section className="skills">
+      <div className="box-container">
+        <div className="box">
+          <div className="column">
+            <img src={cpplogo} alt="logo" />
+            <h1 className="title"> Competitive Programming </h1>
+            <p className="subtitle">
               I love to challenge myself to code any difficult problem.{' '}
             </p>
-            <div className='item'>
+            <div className="item">
               <h2>Language I Speak:</h2>
               <p>CPP, Python, Java, Dart</p>
             </div>
-            <div className='item'>
+            <div className="item">
               <h2>Things I know:</h2>
               <p>
                 <ul>
@@ -30,18 +30,18 @@ const Skill = () => (
               </p>
             </div>
           </div>
-          <div className='column'>
-            <img src={frontendlogo} alt='logo' />
-            <h1 className='title'>Full Stack Web Developer </h1>
-            <p className='subtitle'>
+          <div className="column">
+            <img src={frontendlogo} alt="logo" />
+            <h1 className="title">Full Stack Web Developer </h1>
+            <p className="subtitle">
               I like to code things from scratch, and enjoy bringing ideas to
               life in the browser.
             </p>
-            <div className='item'>
+            <div className="item">
               <h2>Language I used:</h2>
               <p>HTML, Javascript, CSS, Sass, Less, NodeJs </p>
             </div>
-            <div className='item'>
+            <div className="item">
               <h2>Tools And Frameworks:</h2>
               <p>
                 <ul>
@@ -60,18 +60,18 @@ const Skill = () => (
               </p>
             </div>
           </div>
-          <div className='column'>
-            <img src={mobileLogo} alt='logo' />
-            <h1 className='title'>Android App Developer </h1>
-            <p className='subtitle'>
+          <div className="column">
+            <img src={mobileLogo} alt="logo" />
+            <h1 className="title">Android App Developer </h1>
+            <p className="subtitle">
               Building beautiful mobile app that can solve daily life problems
               in a interactive and easy way
             </p>
-            <div className='item'>
+            <div className="item">
               <h2>Skills I gained:</h2>
               <p>React Native, Expo, Flutter, Dart </p>
             </div>
-            <div className='item'>
+            <div className="item">
               <h2>Tools And Frameworks:</h2>
               <p>
                 <ul>

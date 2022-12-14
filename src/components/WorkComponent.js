@@ -13,43 +13,43 @@ const Work = () => {
       alt: 'covid',
       desc: 'Covid-19 Tracker \n (part of flipr Hackathon)',
       isWorkOnProgress: false,
-      link: 'http://3.132.84.112:3000/#/home',
+      link: 'http://3.132.84.112:3000/#/home'
     },
     {
       img: homeDecore,
       alt: 'homeDecore',
       desc: "To redefine your house we'll will help you choose appropriate things your home need",
       isWorkOnProgress: true,
-      link: '#works',
+      link: '#works'
     },
     {
       img: recoms,
       alt: 'recoms',
       desc: 'A personal chat bot to help you track your health',
       isWorkOnProgress: true,
-      link: '#works',
+      link: '#works'
     },
     {
       img: todo,
       alt: 'todo',
       desc: 'To help you track your daily routine',
       isWorkOnProgress: true,
-      link: '#works',
+      link: '#works'
     },
     {
       img: weather,
       alt: 'weather',
       desc: 'Get weather of your city',
       isWorkOnProgress: false,
-      link: 'https://ajaya1000.github.io/WeatherApp/',
-    },
+      link: 'https://ajaya1000.github.io/WeatherApp/'
+    }
   ];
 
   return (
     <>
-      <section className='work' id='works'>
+      <section className="work" id="works">
         <h1>My Recent Work</h1>
-        <div className='project-menu'>
+        <div className="project-menu">
           {workList.map((item) => (
             <Project key={item.alt} {...item} />
           ))}

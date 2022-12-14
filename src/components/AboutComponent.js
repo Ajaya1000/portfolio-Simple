@@ -4,8 +4,8 @@ import '../scss/about.scss';
 
 const About = () => (
   <>
-    <section className='about'>
-      <div className='container'>
+    <section className="about">
+      <div className="container">
         <h1>Hii, I'm Ajay. Nice to meet you.</h1>
         <h2>
           Since beginning my journey as a competitive coder one year ago, I've
