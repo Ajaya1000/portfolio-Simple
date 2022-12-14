@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Project = ({ img, alt, desc, isWorkOnProgress, link }) => (
-  <div className='project'>
+  <div className="project">
     <img src={img} alt={alt} />
-    <div className='caption'>
+    <div className="caption">
       <p>
         {desc.split('\n').map((item, index) => (
           <React.Fragment key={index}>
@@ -15,7 +15,7 @@ const Project = ({ img, alt, desc, isWorkOnProgress, link }) => (
       <a
         className={isWorkOnProgress ? 'wop' : 'cv'}
         target={isWorkOnProgress ? '_self' : '_blank'}
-        rel='noopener noreferrer'
+        rel="noopener noreferrer"
         href={link}
       >
         {isWorkOnProgress ? 'Work On Progress' : ' Visit Website'}
