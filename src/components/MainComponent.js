@@ -11,7 +11,7 @@ import '../scss/main.scss';
 const Main = () => (
   <>
     <Header />
-    <div className='main-content'>
+    <div className="main-content">
       <Home />
       <About />
       <Skill />
